@@ -8,11 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		4C51FE612BB5748B00C3DFD9 /* Trainman_iOSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C51FE602BB5748B00C3DFD9 /* Trainman_iOSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C51FE742BB5763500C3DFD9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE6C2BB5763400C3DFD9 /* Constants.swift */; };
+		4C51FE752BB5763500C3DFD9 /* APIConstantKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE6D2BB5763400C3DFD9 /* APIConstantKeys.swift */; };
+		4C51FE762BB5763500C3DFD9 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE6E2BB5763400C3DFD9 /* Connectivity.swift */; };
+		4C51FE772BB5763500C3DFD9 /* APIEndPointConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE6F2BB5763400C3DFD9 /* APIEndPointConstants.swift */; };
+		4C51FE782BB5763500C3DFD9 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE702BB5763400C3DFD9 /* BaseViewModel.swift */; };
+		4C51FE792BB5763500C3DFD9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE712BB5763500C3DFD9 /* Logger.swift */; };
+		4C51FE7A2BB5763500C3DFD9 /* DecodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE722BB5763500C3DFD9 /* DecodableExtension.swift */; };
+		4C51FE7B2BB5763500C3DFD9 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE732BB5763500C3DFD9 /* AlertHelper.swift */; };
+		4C51FE7F2BB5764700C3DFD9 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE7D2BB5764700C3DFD9 /* Reachability.swift */; };
+		4C51FE802BB5764700C3DFD9 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE7E2BB5764700C3DFD9 /* Utility.swift */; };
+		4C51FE812BB5764700C3DFD9 /* SavePDFFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE7C2BB5764600C3DFD9 /* SavePDFFile.swift */; };
+		4C51FE852BB576B300C3DFD9 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE832BB576B300C3DFD9 /* WebServiceManager.swift */; };
+		4C51FE862BB576B300C3DFD9 /* WebServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE842BB576B300C3DFD9 /* WebServiceHelper.swift */; };
+		4C51FE8C2BB5774100C3DFD9 /* TMBookingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE8B2BB5774100C3DFD9 /* TMBookingRepository.swift */; };
+		4C51FE8F2BB5775100C3DFD9 /* BookingSDKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C51FE8D2BB5775100C3DFD9 /* BookingSDKViewController.xib */; };
+		4C51FE902BB5775100C3DFD9 /* BookingSDKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE8E2BB5775100C3DFD9 /* BookingSDKViewController.swift */; };
+		4C51FE922BB5775C00C3DFD9 /* TMBookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C51FE912BB5775C00C3DFD9 /* TMBookingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C51FE5D2BB5748B00C3DFD9 /* Trainman_iOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trainman_iOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C51FE602BB5748B00C3DFD9 /* Trainman_iOSSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trainman_iOSSDK.h; sourceTree = "<group>"; };
+		4C51FE6C2BB5763400C3DFD9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C51FE6D2BB5763400C3DFD9 /* APIConstantKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstantKeys.swift; sourceTree = "<group>"; };
+		4C51FE6E2BB5763400C3DFD9 /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		4C51FE6F2BB5763400C3DFD9 /* APIEndPointConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndPointConstants.swift; sourceTree = "<group>"; };
+		4C51FE702BB5763400C3DFD9 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		4C51FE712BB5763500C3DFD9 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		4C51FE722BB5763500C3DFD9 /* DecodableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableExtension.swift; sourceTree = "<group>"; };
+		4C51FE732BB5763500C3DFD9 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		4C51FE7C2BB5764600C3DFD9 /* SavePDFFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePDFFile.swift; sourceTree = "<group>"; };
+		4C51FE7D2BB5764700C3DFD9 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4C51FE7E2BB5764700C3DFD9 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		4C51FE832BB576B300C3DFD9 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		4C51FE842BB576B300C3DFD9 /* WebServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceHelper.swift; sourceTree = "<group>"; };
+		4C51FE8B2BB5774100C3DFD9 /* TMBookingRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMBookingRepository.swift; sourceTree = "<group>"; };
+		4C51FE8D2BB5775100C3DFD9 /* BookingSDKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingSDKViewController.xib; sourceTree = "<group>"; };
+		4C51FE8E2BB5775100C3DFD9 /* BookingSDKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingSDKViewController.swift; sourceTree = "<group>"; };
+		4C51FE912BB5775C00C3DFD9 /* TMBookingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMBookingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +80,73 @@
 			isa = PBXGroup;
 			children = (
 				4C51FE602BB5748B00C3DFD9 /* Trainman_iOSSDK.h */,
+				4C51FE872BB576CD00C3DFD9 /* Controller1 */,
+				4C51FE6B2BB575AC00C3DFD9 /* CommonUtils */,
 			);
 			path = Trainman_iOSSDK;
+			sourceTree = "<group>";
+		};
+		4C51FE6B2BB575AC00C3DFD9 /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				4C51FE822BB5767100C3DFD9 /* Networking */,
+				4C51FE732BB5763500C3DFD9 /* AlertHelper.swift */,
+				4C51FE6D2BB5763400C3DFD9 /* APIConstantKeys.swift */,
+				4C51FE6F2BB5763400C3DFD9 /* APIEndPointConstants.swift */,
+				4C51FE702BB5763400C3DFD9 /* BaseViewModel.swift */,
+				4C51FE6E2BB5763400C3DFD9 /* Connectivity.swift */,
+				4C51FE6C2BB5763400C3DFD9 /* Constants.swift */,
+				4C51FE722BB5763500C3DFD9 /* DecodableExtension.swift */,
+				4C51FE7D2BB5764700C3DFD9 /* Reachability.swift */,
+				4C51FE7C2BB5764600C3DFD9 /* SavePDFFile.swift */,
+				4C51FE7E2BB5764700C3DFD9 /* Utility.swift */,
+				4C51FE712BB5763500C3DFD9 /* Logger.swift */,
+			);
+			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		4C51FE822BB5767100C3DFD9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4C51FE842BB576B300C3DFD9 /* WebServiceHelper.swift */,
+				4C51FE832BB576B300C3DFD9 /* WebServiceManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4C51FE872BB576CD00C3DFD9 /* Controller1 */ = {
+			isa = PBXGroup;
+			children = (
+				4C51FE8A2BB576F300C3DFD9 /* ViewModel */,
+				4C51FE892BB576E700C3DFD9 /* Repository */,
+				4C51FE882BB576DF00C3DFD9 /* View */,
+			);
+			path = Controller1;
+			sourceTree = "<group>";
+		};
+		4C51FE882BB576DF00C3DFD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C51FE8E2BB5775100C3DFD9 /* BookingSDKViewController.swift */,
+				4C51FE8D2BB5775100C3DFD9 /* BookingSDKViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C51FE892BB576E700C3DFD9 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				4C51FE8B2BB5774100C3DFD9 /* TMBookingRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		4C51FE8A2BB576F300C3DFD9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C51FE912BB5775C00C3DFD9 /* TMBookingModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C51FE8F2BB5775100C3DFD9 /* BookingSDKViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +229,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C51FE802BB5764700C3DFD9 /* Utility.swift in Sources */,
+				4C51FE752BB5763500C3DFD9 /* APIConstantKeys.swift in Sources */,
+				4C51FE902BB5775100C3DFD9 /* BookingSDKViewController.swift in Sources */,
+				4C51FE792BB5763500C3DFD9 /* Logger.swift in Sources */,
+				4C51FE7A2BB5763500C3DFD9 /* DecodableExtension.swift in Sources */,
+				4C51FE782BB5763500C3DFD9 /* BaseViewModel.swift in Sources */,
+				4C51FE7B2BB5763500C3DFD9 /* AlertHelper.swift in Sources */,
+				4C51FE7F2BB5764700C3DFD9 /* Reachability.swift in Sources */,
+				4C51FE772BB5763500C3DFD9 /* APIEndPointConstants.swift in Sources */,
+				4C51FE862BB576B300C3DFD9 /* WebServiceHelper.swift in Sources */,
+				4C51FE922BB5775C00C3DFD9 /* TMBookingModel.swift in Sources */,
+				4C51FE852BB576B300C3DFD9 /* WebServiceManager.swift in Sources */,
+				4C51FE812BB5764700C3DFD9 /* SavePDFFile.swift in Sources */,
+				4C51FE742BB5763500C3DFD9 /* Constants.swift in Sources */,
+				4C51FE8C2BB5774100C3DFD9 /* TMBookingRepository.swift in Sources */,
+				4C51FE762BB5763500C3DFD9 /* Connectivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
